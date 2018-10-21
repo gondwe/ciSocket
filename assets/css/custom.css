@@ -1,0 +1,116 @@
+
+h4, h5{color:#607d8b!important}
+h1, h3 {color:#4c647d!important}
+
+/* 0ccae830 */
+/* hover effect */
+ #example tbody tr.even:hover, #example tbody tr.even td.highlighted {
+  background-color: #0ccae830;
+  }
+   #example tbody tr.odd:hover, #example tbody tr.odd td.highlighted {
+  background-color: #0ccae830;
+  }
+  _row #example tr.even:hover {
+  background-color: #0ccae830;
+  }
+  _row #example tr.even:hover td.sorting_1 {
+  background-color: #0ccae830;
+  }
+  _row #example tr.even:hover td.sorting_2 {
+  background-color: #0ccae830;
+  }
+  _row #example tr.even:hover td.sorting_3 {
+  background-color: #0ccae830;
+  }
+  _row #example tr.odd:hover {
+  background-color: #0ccae830;
+  }
+  _row #example tr.odd:hover td.sorting_1 {
+  background-color: #0ccae830;
+  }
+  _row #example tr.odd:hover td.sorting_2 {
+  background-color: #0ccae830;
+  }
+  _row #example tr.odd:hover td.sorting_3 {
+  background-color: #0ccae830;
+  }
+
+
+  a#drm.dropdown-item:hover {
+    background-color: #2682ec3b;
+  }
+
+  /* second menu */
+ul#omul {list-style-type:none; margin:0; padding:0; overflow:hidden; background:#343a40}
+li#oml {float:left;padding:5; margin-left:40px !important; color:rgb(190, 188, 188)!important}
+li#oml:hover {color:#fff!important}
+li#oml>a:hover {color:#fff!important}
+.nav-link:hover {color:#fff!important}
+#oml>a {text-decoration:none; color:#818182}
+/* 
+#navbarDropdown:hover{
+  color:black !important;
+} */
+
+html{
+  zoom: 90%;
+  }
+table{
+  zoom: 90%;
+  }
+
+hr {
+    clear:both;
+}
+
+.cc {
+    min-height:130px;
+    color:#000;
+    background:rgba(0,123,255,.5);;
+}
+
+.card-body {
+    min-height: 100px;
+    padding-top: 1px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    
+}
+
+.rowd {
+  width:100%;
+  float:none;
+  clear:both;
+  display:inline-block;
+}
+
+#navbars.navbar {
+  background:#9700b1 !important;
+}
+#navbars {
+  background:#9700b1 !important;
+  position: sticky;
+  top: 0px;
+  z-index: 1050;
+  box-shadow: 0px 0px 10px 1px #000;
+  border-bottom: 1px solid #fff;
+  /* width:vw-3.5 */
+}
+
+#example_wrapper {
+  background: #f8f9fa !important;
+  padding: 10px 5px 5px 10px;
+  border-radius: 15px 1px 0px 0px;
+  border-bottom: 2px solid #dcdcdc;
+}
+
+#dataTables_filter input {
+  border-radius:8px;
+}
+
+#tablohead {
+  background:#343a40; 
+  padding-left:10px; 
+  font-weight:lighter;
+  border-right: 1px solid black;
+}
